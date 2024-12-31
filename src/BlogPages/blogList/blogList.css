@@ -1,0 +1,23 @@
+
+.blogList{
+    
+    position: absolute;
+    top: 80px;
+    left: 340px;
+   
+}
+.blogList-heading{
+    text-decoration: underline;
+    font-family: 'roboto';
+    color: rgb(83, 76, 90);
+    font-variant: small-caps;
+    
+}
+@media screen and (max-width:720px){
+    .blogList{
+        position: absolute;
+        top: 80px;
+       left: 0px;
+       width: 400px;
+    }
+}

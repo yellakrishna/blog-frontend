@@ -1,0 +1,15 @@
+.sideBar-container{
+   background-color: rgb(174, 242, 243);
+   max-width: 200px;
+   min-height: 100vh;
+}
+
+@media screen and (max-width:720px){
+    .sideBar-container{
+        background-color: rgb(174, 242, 243);
+        max-width: 100px;
+        min-height: 100vh;
+        flex-wrap: wrap;
+        display: none;
+     }
+}

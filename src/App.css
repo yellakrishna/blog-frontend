@@ -1,0 +1,21 @@
+.profile-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transition: -40%;
+}
+@media screen and (max-width:720px){
+  .profile-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+  }
+}

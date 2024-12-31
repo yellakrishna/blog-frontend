@@ -1,0 +1,23 @@
+.createBlog{
+    background-color: blanchedalmond;
+    max-width: 500px;
+    max-height: 500px;
+    padding:30px;
+    position: absolute;
+    top: 120px;
+    left:500px;
+
+    
+    
+}
+@media screen and (max-width:720px){
+    .createBlog{
+        background-color: blanchedalmond;
+        max-width: 400px;
+    max-height: 500px;
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    left:10px;
+    }
+}

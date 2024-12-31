@@ -1,0 +1,38 @@
+.registers{
+   background-color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   max-width: 450px;
+   max-height: 400px;
+   margin-left: 500px;
+   box-shadow: 0px 8px 8px 8px black;
+   position: absolute;
+   top: 40px;
+   left: 30%;
+   width: 400px;
+   transition: -50%;
+    
+}
+form{
+    padding: 20px;
+}
+label{
+    font-family: 'roboto';
+}
+.head{
+    font-variant: small-caps;
+    text-decoration: underline;
+    color: rgb(55, 154, 157);
+}
+
+@media screen and (max-width:720px){
+    .registers{
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 300px;
+        margin-left: 0px;
+    }
+}
